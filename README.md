@@ -1,6 +1,28 @@
-# AMZN_Forecasting
-This Python script is pulling data out of a Rapid API's for yahoo finniance, if you are wanting to run this script you will need to get our own API key. The data come's in JOSN formate which is then convereted into a Pandas Dataframa. 
-The data is of Amazon stock price over the last 5 year's and is the close on a weekly freequence.
-There are statisical test to see if there seasonilty and trend to the stock price, since the data show's that there is seasinalty in the stock price I decided to go with
-as sariama model. The stock data come back as Homoskedastic, so I didn't enforce stationiar into the stock data. 
-When doing the hyperprameter tunning, i was running into memory problem's, so to fix that any time that running a certain configuration come with a warning, that an exception would be hit, and that particular instance would be hit into the garbage collector. This serioulsy improved the efficanicy of the model. 
+## 📊 Amazon Stock Forecasting with SARIMAX  
+
+### 🔹 Overview  
+This Python script retrieves **Amazon stock price data** from **Yahoo Finance API via RapidAPI**.  
+The data is in **JSON format**, which is converted into a structured **Pandas DataFrame** for analysis.  
+
+### 🛠 Data Processing  
+- Extracts **Amazon stock price** for the past **5 years** at a **weekly frequency**.  
+- Performs **statistical tests** to determine **seasonality and trend presence**.  
+- Since seasonality is present, the **SARIMAX model** was selected for forecasting.  
+
+### 🔍 Model Selection  
+- The stock data exhibits **homoskedastic behavior**, meaning stationarity enforcement wasn’t necessary.  
+- **Hyperparameter tuning** initially caused **memory issues**.  
+- To resolve this, any **problematic configurations** triggering warnings were **sent to garbage collection**, improving efficiency.  
+
+### 🚀 Optimization & Improvements  
+- Garbage collection significantly **enhanced performance**, making model tuning more effective.  
+- Final model provides **future stock price forecasts** based on historical trends.  
+
+### 🔗 Running the Script  
+To execute this script, **you must obtain your own API key** from **RapidAPI** to access Yahoo Finance data.  
+
+---
+
+This version keeps the **technical depth** while improving **readability and structure**.  
+Would you like me to refine any parts further or **add visual examples** like tables or code snippets? 🚀  
+You could even include **plots of your forecast results** to make it more engaging!
