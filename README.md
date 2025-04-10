@@ -21,8 +21,3 @@ The data is in **JSON format**, which is converted into a structured **Pandas Da
 ### 🔗 Running the Script  
 To execute this script, **you must obtain your own API key** from **RapidAPI** to access Yahoo Finance data.  
 
----
-
-This version keeps the **technical depth** while improving **readability and structure**.  
-Would you like me to refine any parts further or **add visual examples** like tables or code snippets? 🚀  
-You could even include **plots of your forecast results** to make it more engaging!
